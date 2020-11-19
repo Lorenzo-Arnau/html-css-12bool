@@ -1,0 +1,29 @@
+[class*="col-"]{
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+[class*="col-"] .container{
+  padding: 0px;
+}
+.black{
+  background-color: #000;
+}
+.brown{
+  background-color: #593102;
+}
+.grey{
+  background-color: #ccc;
+}
+.pink{
+  background-color: #E192FF;
+}
+.container .col-6:first-child{
+  color: #593102;
+}
+.container .col-6:nth-child(2){
+  color: #E192FF;
+}
